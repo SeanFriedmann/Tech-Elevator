@@ -1,0 +1,14 @@
+body{
+    background-color:blueviolet;
+    color:aliceblue;
+}
+header{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+blockquote{
+    font-style: italic;
+}
+

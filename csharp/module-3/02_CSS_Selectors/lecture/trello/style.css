@@ -1,0 +1,105 @@
+
+body{
+    background-color: #858c90;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif ;
+    white-space: nowrap; /*no wrapping elements when you run out of browser width*/
+}
+
+header > h1, p{ /*grab both h1 and p to put them properly in one line*/
+    display: inline-block;
+    color: rgb(224, 222, 222);
+    height: 20px;
+    vertical-align: middle;
+    border-right: 1px solid rgb(224, 222, 222);
+    padding-right: 10px;
+
+}
+header > h1{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+/*style the trello-list class elements */
+.trello-list{
+    display: inline-block;
+    width: 350px;
+    background-color: #dddddd;
+    border-radius: 5px; /*round the corners to a certain degree */
+    margin-right: 10px; /*space between columns*/
+    vertical-align: top; /*top align elemetns*/
+}
+/*get all h2 elements inside of divs in the trello-list class */
+div.trello-list h2{
+    margin: 10px; 
+    font-size: 1rem; /*default html font is 16px, so 1rem */
+    font-weight: bold;
+    
+}
+
+div.trello-list ol{
+    /*property for bullet points/ numbers 
+    styles applied to ol will also be applied to li*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+div.trello-list li{
+    background-color: white;
+    margin-bottom: 10px; /*this changes the color between boxes to gray */
+    padding: 8px ;
+    font-weight: bold;
+    font-size: 0.8rem; /*comparative size to h2*/
+
+}
+
+div.trello-list li:last-child{
+    /**find list inside trello, select only last li item*/
+    margin-bottom: 0;
+    /*this messed with the add another card section so lets remove it*/
+    
+}
+
+div.trello-list a{
+    /*work with the add another card link*/
+    color: #616060;
+    text-decoration: none; /*anchor tags have default underline, remove it*/
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block; /*a's are usually inline, change to block to give it more space o work with*/
+}
+
+div.trello-list a:hover{
+    color: black;
+}
+
+div.labels span{
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    border-radius: 2px;
+
+}
+.label.general{
+    background-color: orange;
+}
+
+.label.pathway{
+    background-color: red;
+}
+
+.label.individual{
+    background-color: green;
+}
+
+.label.pair{
+    background-color: teal;
+}
+
+
+
+
+
+
+

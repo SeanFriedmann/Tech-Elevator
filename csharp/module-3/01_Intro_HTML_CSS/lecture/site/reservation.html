@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+    <body>
+        <header>
+            <h1>Bits & Bytes</h1> <!--biggest header-->
+            <p>Gordon Ramsey, who?</p>
+        </header>  
+
+        <nav>
+            <a href="index.html">Return to Main Menu</a> 
+
+        </nav>
+
+        <main>
+            <h2>Make A Reservation</h2>
+
+            <form method="post" action="api/reservation">
+
+                <div> <!--div is a container element-->
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" name="firstName" type="text" />
+                
+            
+                    <label for="lastName">Last Name:</label>
+                    <input id="lastName" name="lastName" type="text" />
+                </div>
+                <!-- <input type="checkbox"/>
+                <input type="date"/>, CTRL+K+C still works! -->
+                <div>
+                    <label for ="reservationDate">Date:</label>
+                    <input id="reservationDate" type="date"/>
+
+                    <label for ="reservationTime">Time:</label>
+                    <input id="reservationTime" type="time"/>
+                </div>
+
+                <div>
+                    <label for ="specialOccasion">Special Occasion:</label>
+                    <input id="specialOccasion" type="checkbox"/>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+
+
+                <!--this is an example, doesn't work-->
+
+            </form>
+        </main>
+        
+    </body>
+</html>

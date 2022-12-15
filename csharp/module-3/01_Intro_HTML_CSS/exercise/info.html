@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title> <!--used as title of page in tab-->
+    <link rel="stylesheet" href="info-style.css" />
+
+</head>
+<body>
+    <form method="post" action="api/information">
+
+        <div> <!--div is a container element-->
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required/>
+        </div>
+       
+        <div>
+            <label for ="date-of-birth">Date of birth:</label>
+            <input id="date-of-birth" name="date-of-birth" type="date"/>
+        </div>
+        <div>
+            <label for ="favorite-color">Favorite color:</label>
+            <input id="favorite-color" name="favorite-color" type="color"/>
+        </div>
+
+        <div>
+            <label for ="lucky-number">Lucky number:</label>
+            <input id="lucky-number" name="lucky-number" type="number"/>
+        </div>
+
+        <div>
+            <label for="confirmation">Confirmation:</label>
+            <input id="confirmation" name="confirmation" type="checkbox"/>
+        </div>
+        <div>
+            <label for="submit">Submit</label>
+            <input id="submit" type="submit"/>
+        </div>
+
+
+        <!--this is an example, doesn't work-->
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+img{
+    height: 200px;
+    
+}
+/* 
+CSS comments
+*/
+body{
+    /*edit entire body instead of just h1*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color:#6667ab;
+
+}
+
+h3{
+    color:tomato;
+}
